@@ -1,0 +1,18 @@
+<!--pages/entrance/entrance.wxml-->
+<view >
+<!-- 上盒子 -->
+  <view class="entranceBox_up" 
+        style="background:url('https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/entrance_org.png');background-size:cover;">
+    <view class="entranceBox_in">
+      <image class="entranceBoxIn_logo" src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/entrance_logo.png"></image>
+      <text class="entranceBoxIn_txt">大华福利院</text>
+    </view>
+  </view>
+<!-- 下盒子 -->
+  <view class="entranceBox_down">
+    <image src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/entrance_weixin.png" class="entranceBox_weixinImg" bindtap="weixinLogin">
+    </image>
+     <view class="entranceBox_weixinTxt">技术支持：有伴（上海）智能科技有限公司</view>
+  </view>
+</view>
+<!-- <mp-tabbar style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{list}}" bindchange="tabChange"></mp-tabbar> -->

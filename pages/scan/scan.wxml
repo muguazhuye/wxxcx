@@ -1,0 +1,27 @@
+<!--pages/scan/scan.wxml-->
+<camera 
+  mode="scanCode" 
+  device-position="back" 
+  flash="auto" 
+  binderror="error" 
+  class="scanBox">
+  <cover-view class="navBarTitle">
+    <cover-image class="scanLou"
+    src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/scan.png">
+    </cover-image>
+    <cover-image class="scanArrow" bindtap="rouscanBack"
+    src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/backwhite.png">
+    </cover-image>
+    <cover-image class="greBox"
+    src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/greBox.png">
+    </cover-image>
+  </cover-view>
+  <cover-view class="scanTxt" bindtap="rouscanBack">
+    巡更扫描
+  </cover-view>
+  <cover-view class="scanTs"  bindtap="sresult">
+   将取景框对准二维码, 即可自动扫描
+
+  </cover-view>
+
+</camera>

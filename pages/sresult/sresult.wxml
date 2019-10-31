@@ -1,0 +1,31 @@
+<!--pages/sresult/sresult.wxml-->
+<nav-bar titleMsg="{{titleMsg}}"></nav-bar>
+<view  class="srBody">
+  <view class="srBox">
+    <view class="sr_h">
+      <view class="srh_l">
+        <view class="srh_li">设备编号:N01-02</view>
+      </view>
+      <view>
+        <text class="srh_ri">2019-08-29 12:30:28</text>
+      </view>
+    </view>
+    <view class="sr_m">
+      <view class="srm_l">
+        <view class="srm_i">占位</view>
+          <!-- <image class="merCon_i" src="/images/book.png"></image> -->
+        </view>
+        <view  class="srm_r">
+          <view class="srm_h">这里是设备名称</view>
+          <view class="srm_t">设备类别:消防水系统</view>
+          <view class="srm_t">设备位置:1楼大厅西侧</view>
+          <view class="srm_t">连线状态:不在线</view>
+        </view>
+    </view>
+    <view class="sr_u">
+      <view class="sruA">正常</view>
+      <view class="sruB" bindtap="uptrouble">上报故障</view>
+  </view>
+  </view>
+  
+</view>

@@ -1,0 +1,24 @@
+<!--pages/mreport/mreport.wxml-->
+<nav-bar titleMsg="{{titleMsg}}"></nav-bar>
+<view  class="mrBox">
+  <view class="mrItem">
+    <view class="mrIteml">
+      <image src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/Ovaled.png" class="ovaled"></image>
+    </view>
+    <view class="mrItemr">设备损坏</view>
+  </view>
+  <view class="mrItem">
+    <view class="mrIteml">
+      <image src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/Ovaled.png" class="ovaled"></image>
+    </view>
+    <view class="mrItemr">设备损坏</view>
+  </view>
+  <textarea 
+    class="msarea" 
+    placeholder="请输入误报原因"
+    placeholder-class="msarea_holder">
+  </textarea>
+  <view class="ms_submit">提交</view>
+  <!-- <button bindtap="ceshi">ii</button> -->
+</view>
+

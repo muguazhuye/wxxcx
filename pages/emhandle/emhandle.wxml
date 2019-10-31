@@ -1,0 +1,82 @@
+<!--pages/emhandle/emhandle.wxml-->
+<nav-bar titleMsg="{{titleMsg}}"></nav-bar>
+<view class="bodyBox">
+  <view class="swipertabBox">
+    <view class="swiper-tab">
+        <view class="swiper-tab-item {{currentTab==0?'active':''}}"               data-current="0" bindtap="clickTab">未处理(1)</view>
+        <view class="swiper-tab-item {{currentTab==1?'active':''}}"               data-current="1" bindtap="clickTab">已处理(2)</view>
+      </view>
+  </view>
+
+  <swiper class="swiper" bindchange="pagechange" current="{{currentTab}}">
+    <swiper-item class="swiper">
+      <view class="warMerBox">
+      <!-- 警告框上 -->
+          <view class="wmbU">
+            <view class="wmbU_l">
+              <image class="wmbUl_img" src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/warn.png"></image>
+            </view>
+            <view class="wmbU_m">
+              <text class="wmbUl_t">设备编号:N01-02</text>
+            </view>
+            <view class="wmbU_r">
+              <text class="wmbUr_t">2019-08-29 12:30</text>
+            </view>
+          </view>
+      <!-- 警告框中 -->
+        <view class="merCon">
+          <view class="merCon_l">
+            <view class="merCon_i">占位</view>
+            <!-- <image class="merCon_i" src="/images/book.png"></image> -->
+          </view>
+          <view  class="merCon_r">
+            <view class="merCon_h">这里是设备名称</view>
+            <view class="merCon_t">设备类别:消防水系统</view>
+            <view class="merCon_t">设备位置:1楼大厅西侧</view>
+            <view class="merCon_t">连线状态:在线</view>
+            <view class="merCon_t">设备状态:报警</view>
+          </view>
+        </view>
+      <!-- 警告框下 -->
+          <view class="selBox">
+            <view class="selIcon" bindtap="mreport">
+              <image class="selIcon_i" src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/ring.png"></image>
+              <text class="selIcon_t">误报</text>
+            </view>
+            <view class="selIcon">
+              <image class="selIcon_i" src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/ringing.png"></image>
+              <text class="selIcon_t">异常</text>
+            </view>
+            <view class="selIcon bg">
+              <image class="selIcon_i" src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/tel.png"></image>
+              <text class="selIcon_t">报警</text>
+            </view>
+          </view>
+
+      </view>
+    </swiper-item>
+    <swiper-item class="swiper">
+      <view class="warHandedBox">
+      <view class="warhb_header">
+        设备编号:N01-02
+      </view>
+      <view class="warhb_Con">
+          <view class="warhb_l">
+            <view class="warhb_i">占位</view>
+            <!-- <image class="merCon_i" src="/images/book.png"></image> -->
+          </view>
+          <view  class="warhb__r">
+            <view class="warhb__h">这里是设备名称…</view>
+            <view class="warhb__t">设备位置:1楼大厅西侧</view>
+            <view class="warhb__t">设备位置:1楼大厅西侧</view>
+            <view class="warhb__t">处理人: 张师傅</view>
+            <view class="warhb__t">报警时间:2019-08-29 12:3</view>
+            <view class="warhb__t">处理时间:2019-08-29 12:3</view>
+             <view class="warhb__t">处理结果: 【误报】作业场所扬尘原因,作业场所扬尘</view>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+
+</view>

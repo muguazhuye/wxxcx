@@ -1,0 +1,186 @@
+/* pages/emhandle/emhandle.wxss */
+.bodyBox{
+  background-color: #F5F5F5;
+  height: 100%;
+}
+.swipertabBox{
+  width:100%;
+  border-top: 2rpx solid #DCDCDC;
+  background-color: #fff;
+}
+.swiper-tab{
+    width: 678rpx;
+    margin:0 auto;
+    text-align: center;
+    height: 80rpx;
+    line-height: 80rpx;
+    display: flex;
+    flex-flow: row;
+    font-size: 28rpx;
+    font-weight:400;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.swiper-tab-item{
+    width:304rpx;
+    height:100%;
+    color:#333;
+    font-weight:400;
+    box-sizing: border-box;
+}
+.active{
+  color:#FF8800;
+  border-bottom: 4rpx solid #FF8800;
+}
+swiperBigBox{
+  height:1300rpx;
+}
+.swiper {
+  width: 100%;
+  height:100vh;
+  overflow: scroll;
+}
+.warMerBox{
+  display: table;
+  margin:0 auto;
+  margin-top:30rpx;
+  width:690rpx;
+  height:406rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:2rpx 4rpx 12rpx 0px rgba(198,198,198,0.67);
+  border-radius:16rpx;
+}
+.wmbU{
+  padding-right:28rpx;
+  padding-left:38rpx;
+  height:68rpx;
+  width:100%;
+  border-bottom: 2rpx solid #DCDCDC;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 44rpx auto 174rpx;
+}
+.wmbUl_img{
+  display: block;
+  width:32rpx;
+  height:30rpx;
+  margin-top:18rpx;
+  margin-right:12rpx;
+}
+.wmbUl_t{
+  display: block;
+  height:68rpx;
+  font-size:20rpx;
+  font-weight:400;
+  color:rgba(167,167,167,1);
+  line-height:68rpx;
+}
+.wmbUr_t{
+  display: block;
+  width:174rpx;
+  height:68rpx;
+  font-size:20rpx;
+  font-weight:400;
+  color:rgba(167,167,167,1);
+  line-height:68rpx;
+  text-align: center;
+}
+.merCon{
+  width:610rpx;
+  margin:0 auto;
+  margin-top:22rpx;
+  display: grid;
+  grid-template-columns: 208rpx auto;
+}
+.merCon_i{
+  width: 170rpx;
+  height:170rpx;
+  background-color: #ccc;
+}
+.merCon_h{
+  height:44rpx;
+  font-size:32rpx;
+  font-weight:500;
+  color:rgba(51,51,51,1);
+  line-height:44rpx;
+}
+.merCon_t{
+  margin-top:10rpx;
+  height:32rpx;
+  font-size:22rpx;
+  font-weight:400;
+  color:rgba(167,167,167,1);
+  line-height:32rpx;
+}
+.selBox{
+  width: 610rpx;
+  margin:0 auto;
+  margin-top:22rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+.selIcon{
+  width:178rpx;
+  height:60rpx;
+  border-radius:16rpx;
+  border:2rpx solid rgba(213,213,213,1);
+  display: grid;
+  grid-template-columns: 76rpx auto;
+}
+.selIcon_i{
+  width:36rpx;
+  height:36rpx;
+  margin-top:12rpx;
+  margin-left:30rpx;
+}
+.selIcon_t{
+  height:60rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+}
+.bg{
+  background-color: #E74939;
+  color: #fff;
+}
+.warHandedBox{
+  display: table;
+  margin:0 auto;
+  margin-top:30rpx;
+  height: 412rpx;
+  width:690rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:2rpx 4rpx 12rpx 0px rgba(198,198,198,0.67);
+  border-radius:16rpx;
+}
+.warhb_header{
+  margin-top:20rpx;
+  margin-left:30rpx;
+  height:28rpx;
+  font-size:20rpx;
+  font-weight:400;
+  color:rgba(167,167,167,1);
+  line-height:28rpx;
+}
+.warhb_Con{
+  width:630rpx;
+  margin:0 auto;
+  margin-top:22rpx;
+  display: grid;
+  grid-template-columns: 208rpx auto;
+}
+.warhb_i{
+  width: 170rpx;
+  height:170rpx;
+  background-color: #ccc;
+}
+.warhb__t{
+  width:372rpx;
+  margin-top:10rpx;
+  height:32rpx;
+  font-size:22rpx;
+  font-weight:400;
+  color:rgba(167,167,167,1);
+  line-height:32rpx;
+}

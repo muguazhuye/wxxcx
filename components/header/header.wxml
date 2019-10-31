@@ -1,0 +1,10 @@
+<!--components/header/header.wxml-->
+<view class="navBar"  style="height:{{CustomBar}}px">
+  <view class="navBarTitle">
+    <image class="arrowBack"
+    style="background:url('https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/logo_trans.png');background-size:cover;">
+    </image>
+    <text class="titleTxt">大华福利院</text>
+  </view>
+  
+</view>

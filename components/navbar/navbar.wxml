@@ -1,0 +1,14 @@
+<!--components/navbar/navbar.wxml-->
+<view class="navBar"  style="height:{{CustomBar}}px">
+  <view class="navBarTitle">
+    <view bindtap="BackUp">
+       <image class="arrowBack"
+    style="background:url('https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/back.png');background-size:cover;">
+      </image>
+      <text class="titleTxt">{{titleMsg}}</text>
+    </view>
+   
+  </view>
+  
+</view>
+

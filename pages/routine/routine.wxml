@@ -1,0 +1,83 @@
+<!--pages/routine/routine.wxml-->
+<nav-bar titleMsg="{{titleMsg}}"></nav-bar>
+<view class="routerHeader">
+  <view class="rou_h">
+    <view class="rou_l">
+      计划1:消防设施巡检
+    </view>
+    <view  class="rou_r">
+      <image  wx:if="{{calFlag == true}}" src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/close.png" class="rou_i" bindtap="calFlag"></image>
+      <image wx:if="{{calFlag == false}}" src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/open.png" class="rou_i" bindtap="calFlag"></image>
+    </view>
+  </view>
+  <view class="rou_c">
+    <view class="rou_cl">
+      <view class="rou_cli">4次/天</view>
+    </view>
+    <view class="rou_cr">
+      <text class="rou_cri" decode="{{true}}">总点位&nbsp;22个&nbsp;|已完成20个，遗漏1个</text>
+    </view>
+  </view>
+</view>
+
+<view class="calendarBox" wx:if="{{calFlag == true}}">
+    <view class="calItem calgre">1</view>
+    <view class="calItem calgre">2</view>
+    <view class="calItem calgre">3</view>
+    <view class="calItem calgre">4</view>
+    <view class="calItem calgre">5</view>
+    <view class="calItem calgre">6</view>
+    <view class="calItem calgre">7</view>
+    <view class="calItem calgre">8</view>
+    <view class="calItem calorg">9</view>
+    <view class="calItem calgra">10</view>
+</view>
+<view class="timelineBox">
+
+  <view class="tlh">
+    <view class="tlh_l">
+      <image class="iconeGre" src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/iconGre.png"></image>
+      <!-- <image class="iconeGra" src="/images/iconGra.png"></image> -->
+    </view>
+    <view class="tlh_r">1、消火栓</view>
+  </view>
+  <view class="tlb">
+    <view class="tlb_l">
+      <view  class="tlb_lb"></view>
+    </view>
+    <view  class="tlb_m">
+      <view class="tlb_mt">设备编号:N01-03</view>
+      <view class="tlb_mt"> 位置:1楼微型消防站</view>
+    </view>
+    <view class="tlb_r">
+      <view class="tlb_rt">2019-08-29 12:30</view>
+    </view>
+  </view>
+  <view class="tlh">
+    <view class="tlh_l">
+      <!-- <image class="iconeGre" src="/images/iconGre.png"></image> -->
+      <image class="iconeGra" src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/iconGra.png"></image>
+    </view>
+    <view class="tlh_r">1、消火栓</view>
+  </view>
+  <view class="tlb">
+    <view class="tlb_l">
+      <view  class="tlb_lb"></view>
+    </view>
+    <view  class="tlb_m">
+      <view class="tlb_mt">设备编号:N01-03</view>
+      <view class="tlb_mt"> 位置:1楼微型消防站</view>
+    </view>
+    <view class="tlb_r">
+      <view class="tlb_rt">2019-08-29 12:30</view>
+    </view>
+  </view>
+  <view class="saoBox" bindtap="rouscan">
+    <image class="saoImg"
+  src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/sao.png"></image>
+  </view>
+  <view class="comTi">技术支持：有伴(上海)智能科技有限公司</view>
+</view>
+<view class="sbRout">
+  提交
+</view>

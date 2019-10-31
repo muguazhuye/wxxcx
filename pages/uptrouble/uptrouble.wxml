@@ -1,0 +1,24 @@
+<!--pages/uptrouble/uptrouble.wxml-->
+<nav-bar titleMsg="{{titleMsg}}"></nav-bar>
+<view class="upToubleBox">
+  <view class="troubleTitle">设备编号:No1-02</view>
+  <view class="troubleContent">
+    <view class="contentImg">
+      <view class="imgdetail"></view>
+    </view>
+    <view class="ContentTxt">
+      <text class="content_h">这里是设备名称...</text>
+      <text class="content_t">设备类别消防系统</text>
+      <text class="content_t">设备位置：1楼大厅西侧</text>
+      <text class="content_t">设备状态：不在线</text>
+    </view>
+  </view>
+  <view class="describeTitle">故障描述</view>
+  <textarea class="describeArea" 
+    placeholder="请填写误报原因"
+    placeholder-class=""
+  >
+  </textarea>
+  <view class="send">发送</view>
+</view>
+

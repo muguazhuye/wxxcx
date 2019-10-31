@@ -1,0 +1,114 @@
+
+
+<header></header>
+<view class="index_body">
+  <image src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/banner_org.png" class="bg" ></image>
+  <image src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/banner.png"  class="banner_index" ></image>
+  <!-- 首页分类tab -->
+  <view class="index_tab">
+    <view class="index_tabinside">
+      <!-- 左边 -->
+      <view class="tabIndex_left">
+        <view>
+          <image src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/book.png" class="tabIndex_img"></image>
+        </view>
+          <view class="tab_middle">
+            <text class="tabIndex_h">智慧考评</text>
+            <text class="tabIndex_t">规范考评,及时整改</text>
+          </view>
+        <view >
+        </view>
+      </view>
+      <!-- 右边 -->
+      <view class="tabIndex_right">
+        <view class="tab_left">
+          <image src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/waring.png" class="tabIndex_img"></image>
+        </view>
+        <view class="tab_middle">
+          <text class="tabIndex_h">报警处理</text>
+            <text class="tabIndex_t">智慧消防,安全无忧</text>
+        </view>
+        <view class="tab_right">
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 智慧消防标题 -->
+  <view class="fire_title">智慧消防</view>
+  <!-- 智慧消防盒子 -->
+  <view class="fireBox">
+  <!-- 左边 -->
+    <view class="fireBoxL">
+      1
+    </view>
+    <!-- 右边 -->
+    <view class="fireBoxR">
+    <!-- 上 -->
+      <view class="up">
+        <text class="upL">1号楼消防设施巡检</text>
+        <image src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/Doing.png" class="upR"></image>
+      </view>
+      <!-- 中 -->
+      <view class="middle">
+        <view class="middleR">
+          <view class="middleR_interval">4次/天</view>
+        </view>
+        <view>
+          <text decode="{{true}}" class="middlle_t"> 总占位&nbsp;36个&nbsp;|&nbsp;未完成&nbsp;30个</text>
+        </view>
+      </view>
+      <!-- 下 -->
+      <view class="down">
+      <view class="down_l">
+        <!-- 进度条  -->
+        <view class="timeLine">
+          <!-- 橘色 -->
+          <view class="timeLine_o"></view>
+        </view>
+      </view>
+      <view class="down_r">
+        <text>39%</text>
+      </view>
+      </view>
+    </view>
+  </view>
+  <!-- 智慧消防盒子 -->
+  <view class="fireBox">
+  <!-- 左边 -->
+    <view class="fireBoxL">
+      2
+    </view>
+    <!-- 右边 -->
+    <view class="fireBoxR">
+    <!-- 上 -->
+      <view class="up">
+        <text class="upL">1号楼消防设施巡检</text>
+        <image src="https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/Doing.png" class="upR"></image>
+      </view>
+      <!-- 中 -->
+      <view class="middle">
+        <view class="middleR">
+          <view class="middleR_interval">4次/天</view>
+        </view>
+        <view>
+          <text decode="{{true}}" class="middlle_t"> 总占位&nbsp;36个&nbsp;|&nbsp;未完成&nbsp;30个</text>
+        </view>
+      </view>
+      <!-- 下 -->
+      <view class="down">
+      <view class="down_l">
+        <!-- 进度条  -->
+        <view class="timeLine">
+          <!-- 橘色 -->
+          <view class="timeLine_o"></view>
+        </view>
+      </view>
+      <view class="down_r">
+        <text>39%</text>
+      </view>
+      </view>
+    </view>
+  </view>
+  <!-- 公司标识 -->
+  <view class="fire_com">技术支持：有伴（上海）智能科技有限公司</view>
+</view>

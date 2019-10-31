@@ -1,0 +1,143 @@
+/* pages/wxempower/wxempower.wxss */
+.bodyBox{
+  width: 100%;
+  height: 1206rpx;
+  /* background-color: pink; */
+  display: table;
+}
+.inputBox{
+  position: relative;
+  width: 610rpx;
+  height:78rpx;
+  border:2rpx solid #C3C3C3;
+  border-radius:16rpx;
+}
+.inputBox_one{
+  margin:0 auto;
+  margin-top:88rpx;
+}
+.inputBox_two{
+  margin:0 auto;
+  margin-top:44rpx;
+}
+.inputIcon{
+  left:36rpx;
+  top:22rpx;
+  width:38rpx;
+  height:38rpx;
+  position:absolute;
+  display: block;
+}
+.inputTxt{
+  position:absolute;
+  display: block;
+  height: 50rpx;
+  left:100rpx;
+  /* top:20rpx; */
+  top:14rpx;
+  font-size:36rpx;
+  color:#333333;
+ 
+}
+.inputTxtC{
+color:#C8C8C8;
+}
+.inputTangle{
+  display: block;
+  width:610rpx;
+  height:82rpx;
+  margin:0 auto;
+  margin-top:64rpx;
+}
+.companyTxt{
+  width:380rpx;
+  height:28rpx;
+  font-size:20rpx;
+  color:#C8C8C8;
+  margin:0 auto;
+  margin-top:678rpx;
+}
+.showMsgBox{
+  width:412rpx;
+  /* height: 50rpx; */
+  background-color:#000000; 
+  border-radius:8px;
+  opacity:0.67;
+  display: table;
+  margin:0 auto;
+  margin-top:-688rpx;
+}
+.showMsgTxt{
+  display:block;
+  width:320rpx;
+  /* height:100rpx; */
+  margin:36rpx 46rpx;
+  line-height: 42rpx;
+  text-align:center;
+  font-size:28rpx;
+  color:#fff;
+}
+.maskBox{
+  position:fixed;
+  top:0;
+  z-index:101;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity:0.65;
+
+}
+
+.maskDialog{
+  position:fixed;
+  z-index:200;
+  width: 690rpx;
+  height: 346rpx;
+  border-radius:20rpx;
+  top:420rpx;
+  left: 50%;
+	transform:translateX(-50%);
+  background-color: #fff;
+  text-align:center;
+    overflow: hidden;
+}
+.maskDialogUptTitle{
+  margin:30rpx auto;
+  display: block;
+  line-height: 50rpx;
+  font-weight:500;
+  color:#000;
+  font-size:36rpx;
+}
+.maskDialogUptTxt{
+  width:566rpx;
+  margin:0 auto;
+  font-size:32rpx;
+  line-height: 44rpx;
+  text-align: left;
+}
+.txtColor{
+  color:#FF8800;
+}
+.maskDialogDown{
+  border-top:2rpx solid #EDEDED;
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+  height:108rpx;
+  line-height: 108rpx;
+  width:100%;
+  bottom:0;
+  font-weight:400;
+}
+.maskDialogDown_left{
+  flex:1;
+  height: 100%;
+  border-right:4rpx solid #EDEDED;
+}
+.maskDialogDown_right
+{
+  flex:1;
+  height: 100%;
+
+}

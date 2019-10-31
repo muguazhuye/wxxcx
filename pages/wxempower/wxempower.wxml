@@ -1,0 +1,50 @@
+<!--pages/wxempower/wxempower.wxml-->
+<nav-bar titleMsg="{{titleMsg}}"></nav-bar>
+<view class="bodyBox" style="margin-top:{{CustomBar}}px">
+  <form bindsubmit="formSubmit">
+    <view class="inputBox inputBox_one">
+      <image class="inputIcon "
+        style="background:url('https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/phone.png');       background-size:cover;">
+      </image>
+      <input placeholder="请输入您的手机号或工号" class="inputTxt" placeholder-class="inputTxtC" name="workId"></input>
+    </view>
+
+    <view class="inputBox inputBox_two">
+      <image class="inputIcon"
+        style="background:url('https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/lock.png');       background-size:cover;">
+      </image>
+      <input placeholder="请输入您的密码" class="inputTxt" placeholder-class="inputTxtC" name="passWord"></input>
+    </view>
+
+    <button class="inputTangle"
+        formType="submit"
+        style="background:url('https://image-youban.oss-cn-shanghai.aliyuncs.com/wxxcx/tangle.png');       background-size:cover;">
+    </button>
+  </form>
+  
+  <view class="companyTxt">
+    技术支持：有伴（上海）智能科技有限公司
+  </view>
+
+  <view class="showMsgBox" wx:if="{{showToast==true}}">
+    <text class="showMsgTxt">账号或密码错误,您还可以尝试{{yzNumber}}次</text>
+  </view>
+
+</view>
+<!-- 遮罩 -->
+<view class="maskBox" style="display:none;">
+  
+</view>
+<!-- 遮罩对话框 -->
+<view class="maskDialog" style="opacity:1;display:none;" wx:if="{{showBoxFlag==true}}">
+  <view class="maskDialogUp">
+    <text class="maskDialogUptTitle">提示</text>
+    <view class="maskDialogUptTxt">
+    您的账号存在恶意绑定风险,请<text class="txtColor">29</text>分<text class="txtColor">59</text>秒后重试
+    </view>
+  </view>
+  <view class="maskDialogDown">
+    <view class="maskDialogDown_left">联系客服</view>
+    <view class="maskDialogDown_right" bindtap="closeDailog">我知道了</view>
+  </view>
+</view>
